@@ -11,7 +11,7 @@
       "options": {
         "engine": "docker",
         "metadata": {
-          "images": ["cuHacking/2025/portal"],
+          "images": ["cuHacking/portal"],
           "load": true,
           "tags": [
             "type=schedule",

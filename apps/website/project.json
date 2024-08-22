@@ -11,7 +11,7 @@
       "options": {
         "engine": "docker",
         "metadata": {
-          "images": ["cuHacking/2025/website"],
+          "images": ["cuhacking/website"],
           "load": true,
           "tags": [
             "type=schedule",

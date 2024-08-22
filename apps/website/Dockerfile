@@ -17,7 +17,7 @@ COPY --from=deps usr/src/app/node_modules ./node_modules
 COPY --from=deps usr/src/app/package.json ./package.json
 COPY /apps/website/public ./public
 COPY /apps/website/build ./build
-RUN chown -R node:node .
+# RUN chown -R node:node .
 USER node
 EXPOSE 3000
 # COPY --chown=node:node ./tools/scripts/entrypoints/api.sh /usr/local/bin/docker-entrypoint.sh
